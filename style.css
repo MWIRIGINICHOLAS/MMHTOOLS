@@ -1,0 +1,222 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin-top: 1rem;
+  background-image: url('mmh.jpg');
+  background-size: cover;
+}
+
+a {
+  color: #003366;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0 0 1rem 0;
+  color: #003366;
+  
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0 0 1rem 0;
+  color: white;
+}
+
+/* Header Styles #cd919e*/
+
+header {
+
+  align-items: left;
+  background-color:aqua;
+  color: darkblue;
+  width:100%;
+  padding:1rem;
+  outline-color:red;
+  margin-top:0;
+  position:fixed;
+  top:0px;
+  left:0px;
+  text-align:center;
+  
+}
+header h1{
+	color: darkblue;
+	text-align:center;
+	
+}
+.home {
+text-align:center;
+font-size:4rem;
+padding-top:15rem;	
+}
+.ctahome {
+  display: inline-block;
+  padding: 2rem 2rem;
+  background-color: lightblue;
+  color: #blue;
+  border-radius: 10px;
+  font-size: 3rem;
+  transition: background-color 0.3s ease;
+ 
+  
+}
+
+.linked {
+	display: flex;
+	text-align:center;
+	justify-content:center;		
+}
+
+.linked a:hover{
+	background-color: darkblue;
+  color:whiite;
+}
+
+.cta {
+  display: inline-block;
+  padding: 0.5rem 0.5rem;
+  background-color: lightblue;
+  color: #blue;
+  border-radius: 10px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease; 
+}
+
+.cta:hover {
+  background-color: blue;
+  color:white;
+  
+}
+
+.section1 {
+  background-color:#E0FFFF;
+  text-align:center;
+  margin-left: 5px;
+  padding-left:4rem;
+  padding-right:4rem;
+  padding-bottom:2rem;
+  display: flex;
+  justify-content: space-between;
+  }
+.section1 h2 {
+  padding: 2rem;
+  text-align:center;
+  color:black;
+}
+
+.section1 p {
+  text-align:left;
+  font-family: sans-serif;
+  font-size:18px;
+  padding-top:15px;
+  color:black;
+}
+
+.section1 select,
+         input{
+	height:30px;
+	width: 370px;
+	text-align:left;
+}
+
+
+
+
+/* h2 class Styles */
+
+.h2 {
+  background-color:skyblue;
+  text-align:center; 
+  padding-top:3rem;
+  width:100%;
+  color:black;
+     
+}
+.h2 h2 {
+  padding: 0.2rem;
+  text-align:center;
+  color:black;
+}
+
+.buttons {
+background-color:#E0FFFF ;
+margin-left: 5px;
+padding-bottom: 2rem;	
+text-align:center;	
+}
+.buttons p{
+	color:black;
+}
+.submit{
+background-color:#E0FFFF ;	
+text-align:left;
+padding-left:7rem;	
+}
+
+/* section 3 Styles */
+/* does not apply to patient_census form Styles */
+.section3 {
+  background-color: #E0FFFF;
+  width:70%;
+  margin-left: 130px;
+  padding:2rem;
+  padding-left:8rem;
+  
+}
+.section3 p {
+  text-align:left;
+  font-family: sans-serif;
+  font-size:18px;
+  padding-top:15px;
+  color:black;
+}
+
+.section3 form {
+  flex-direction: column;
+  padding: 1rem;
+  padding-top: 7px;
+  display:flex;
+  
+}
+
+.section3 label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.section3 input{
+	height:30px;
+	width: 370px;
+	text-align:left;
+}
+
+ /* Error message popup Styles */
+ 
+#success-message {
+  background-color: #c7f5d6;
+  color: green;
+  padding: 10px;
+}
+
+#error-message {
+  background-color: #f5c7c7;
+  color: red;
+  padding: 10px;
+}
